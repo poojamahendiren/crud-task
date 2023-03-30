@@ -153,7 +153,7 @@ function Dashboard() {
 
             <Button variant="contained" type="submit" >Submit</Button>
           </Box><br/>
-    
+          <Box>
           <h3 style={{textAlign:"left"}}>User Data</h3>
           <TableContainer component={Paper}>
             <Table sx={{ width: 650 }} aria-label="simple table">
@@ -190,6 +190,7 @@ function Dashboard() {
               </TableBody>
             </Table>
           </TableContainer>
+          </Box>
           </Box>
           
 
